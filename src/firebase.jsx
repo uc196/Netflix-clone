@@ -14,14 +14,7 @@ import {
 } from "firebase/firestore";
 import { toast } from "react-toastify";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyCVog_IJoEHbDcz2vOfpUvstAnkmw7OFCE",
-  authDomain: "netflix-57512.firebaseapp.com",
-  projectId: "netflix-57512",
-  storageBucket: "netflix-57512.appspot.com",
-  messagingSenderId: "564641381874",
-  appId: "1:564641381874:web:aa9c49eb9bebcc333d3f6b"
-};
+
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
